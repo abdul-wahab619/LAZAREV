@@ -1,0 +1,35 @@
+<div id="nav-bottom">
+        <div class="bottom-div">
+          <h5><span>Case Studies</span></h5>
+        </div>
+        <div class="bottom-div">
+          <h5><span>💥 AI & ML</span></h5>
+          <h5><span>FinTech</span></h5>
+          <h5><span>Real Estate</span></h5>
+          <h5><span>E-Commerce</span></h5>
+          <h5><span>Web3</span></h5>
+        </div>
+        <div class="bottom-div">
+          <h5><span>UX Audit</span></h5>
+          <h5><span>UI Design</span></h5>
+          <h5><span>UX Design</span></h5>
+          <h5><span>UX Research</span></h5>
+        </div>
+        <div class="bottom-div">
+          <h5><span>SaaS</span></h5>
+          <h5><span>Web App</span></h5>
+          <h5><span>Mobile App</span></h5>
+          <h5><span>Website Design</span></h5>
+        </div>
+        <div class="bottom-div">
+          <h5><span>MVP</span></h5>
+          <h5><span>Relaunch</span></h5>
+        </div>
+        <div class="bottom-div">
+          <h5><span>Our Story</span></h5>
+          <h5><span>Clients Feedback</span></h5>
+          <h5><span>Careers</span></h5>
+          <h5><span>&nbsp;</span></h5>
+          <h5><span>News & Artcles</span></h5>
+        </div>
+      </div>
