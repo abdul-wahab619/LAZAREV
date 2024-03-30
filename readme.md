@@ -24,6 +24,8 @@ The goal of this project is to replicate the layout, design, and functionality o
 ## Project Structure
 
 The project will have the following structure:
+
+```
 LAZAREV/
 │
 ├── index.html # Main HTML file for the website
@@ -32,9 +34,10 @@ LAZAREV/
 ├── scripts/ # Directory for JavaScript files
 │ └── script.js # JavaScript file for interactivity and GSAP animations
 └── assets/ # Directory for images, fonts, or other assets
-
+```
 
 ## Installation and Setup
+
 To run the project locally, follow these steps:
 
 1. Clone this repository to your local machine.
@@ -43,7 +46,9 @@ To run the project locally, follow these steps:
 Alternatively, you can use a local development server to serve the files.
 
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
