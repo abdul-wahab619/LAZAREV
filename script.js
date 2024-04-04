@@ -51,7 +51,7 @@ function page2Animation() {
         scale: 0,
       });
     });
-    elem.addEventListener("mousemove", function (dets) { 
+    elem.addEventListener("mousemove", function (dets) {
       gsap.to(elem.childNodes[3], {
         x: dets.x - elem.getBoundingClientRect().x - 20,
         y: dets.y - elem.getBoundingClientRect().y - 120,
@@ -59,6 +59,8 @@ function page2Animation() {
     });
   });
 }
+function page3VideoAnimation() {}
 
 navAnimation();
 page2Animation();
+page3VideoAnimation();

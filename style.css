@@ -116,7 +116,6 @@ nav button svg {
   padding: 2px;
 }
 #moving-div {
-  /* background-color: rebeccapurple; */
   margin-top: 10vh;
   position: absolute;
   bottom: 3%;
@@ -177,7 +176,6 @@ nav button svg {
 #page2-left {
   height: 100%;
   width: 40%;
-  /* background-color: #333; */
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -196,12 +194,10 @@ nav button svg {
 #page2-right {
   height: 100%;
   width: 50%;
-  /* background-color: #333; */
 }
 
 .right-elem {
   position: relative;
-  /* background-color: red; */
   padding-top: 2vw;
   padding-bottom: 5vw;
   border-bottom: 1px solid #333;
@@ -220,4 +216,67 @@ nav button svg {
   opacity: 0;
   position: absolute;
   scale: 0;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  background-image: url(https://lazarev.kiev.ua/la24/reel-cover.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page3-center {
+  display: flex;
+  align-items: center;
+  padding: 1vw;
+  flex-direction: column;
+}
+
+.page3-center .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.3vw;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.page3-center .icon i {
+  color: #000;
+  font-size: 2.8vw;
+}
+
+.page3-center h5 {
+  font-size: 0.8vw;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 12px 26px 10px 26px;
+  margin-top: 0.5vw;
+  font-weight: 700;
+  opacity: 0;
+  transition: all ease 0.5s;
+  transform: translateY(16%);
+  text-transform: uppercase;
+}
+
+.page3-center:hover h5 {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+#page3 video {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  transform: scaleX(0.7) scaleY(0);
+  opacity: 0;
+  border-radius: 30px;
+  z-index: 99999;
 }
