@@ -14,6 +14,10 @@ The goal of this project is to replicate the layout, design, and functionality o
 - Styling the website to match the original design using CSS.
 - Implementing interactive elements and animations using JavaScript and GSAP.
 
+## Interface of Website:
+
+![Full Page Image](/public/full-page.png)
+
 ## Technologies Used
 
 - HTML: For creating the structure and content of the website.
